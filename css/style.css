@@ -11,7 +11,7 @@ nav{
     width: 400px;
     height: auto;
     font-family: 'Arial';
-    margin: 100px auto;
+    margin: auto;
 }
 
 .item label{
@@ -61,4 +61,13 @@ nav{
 
 .footer{
     text-align: center;
+}
+.main {
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+}
+.main a{
+    text-decoration: none;
+    color: #fff;
 }
