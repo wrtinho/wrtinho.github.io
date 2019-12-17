@@ -63,11 +63,15 @@ nav{
     text-align: center;
 }
 .main {
+    font-family: 'Arial';
     text-align: center;
     font-size: 20px;
     color: #fff;
 }
-.main a{
+.main a {
     text-decoration: none;
     color: #fff;
+}
+.main h1{
+ 
 }
