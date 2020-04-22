@@ -3,10 +3,7 @@
     padding: 0; 
 } 
 body{
-    background-color: #8e8e8e;
-    
- 
-    
+    background-color: #04012b;
 }
 
 nav{
@@ -92,4 +89,35 @@ nav{
     margin-top: 28%;
     padding: 0% 43% 
     
+}
+
+
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: 
+        radial-gradient(circle at left bottom, 
+        #ffff 0%, #ffff 20%, 
+        #fffb 20%, #fffb 30%, 
+        #fff6 30%, #fff6 40%, 
+        #fff2 40%, #fff2 50%, 
+        #fff2 60%, #fff2 70%, 
+    
+        transparent 50%, transparent 100%),
+        url(https://placecage.com/100/100);
+    background-size: 100% 100%, cover;
+    background-position: bottom left, center;
+    background-repeat: no-repeat;
+
+    animation: nome 5s infinite;
+}
+@keyframes nome {
+    50% {
+        background-size: 120% 120%, cover;
+    }
 }
