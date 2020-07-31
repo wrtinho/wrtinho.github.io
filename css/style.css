@@ -90,7 +90,7 @@ nav{
     heigth: 20px;
 }
 .footer footer{
-    width: 50%;
+   align-itens: center;
     margin: auto;
     bottom: 0;
     position: relative;  
